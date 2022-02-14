@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">CapitalOneBuild</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="article_label">Articles</string>
+    <string name="image_description">Image Description</string>
+    <string name="error_title">Error!</string>
+    <string name="ok">OK</string>
+    <string name="section">Section</string>
+    <string name="more_info">More Info</string>
+    <string name="show_details">Show Details</string>
+    <string name="politics">Politics News</string>
+    <string name="sports">Sports News</string>
+    <string name="travels">Travels News</string>
+    <string name="politics_api">politics</string>
+    <string name="sport_api">sports</string>
+    <string name="travel_api">travel</string>
+</resources>
