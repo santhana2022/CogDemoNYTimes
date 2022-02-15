@@ -12,6 +12,7 @@
     <string name="politics">Politics News</string>
     <string name="sports">Sports News</string>
     <string name="travels">Travels News</string>
+
     <string name="politics_api">politics</string>
     <string name="sport_api">sports</string>
     <string name="travel_api">travel</string>

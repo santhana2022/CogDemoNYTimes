@@ -30,7 +30,7 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
-            buildConfigField 'String', "BASE_URL", '"https://api.nytimes.com/svc/topstories/v2/"'
+            buildConfigField 'String', "BASE_URL", '"https://grjdhf09al.execute-api.us-east-1.amazonaws.com/dev/"'
             buildConfigField 'String', "API_KEY", '"LcKeKsGydBd8zJODuMGUy0jyKs6MtkvS"'
         }
     }
@@ -38,7 +38,7 @@ android {
     productFlavors {
         app {
             isDefault true
-            buildConfigField 'String', "BASE_URL", '"https://api.nytimes.com/svc/topstories/v2/"'
+            buildConfigField 'String', "BASE_URL", '"https://grjdhf09al.execute-api.us-east-1.amazonaws.com/dev/"'
             buildConfigField 'String', "API_KEY", '"LcKeKsGydBd8zJODuMGUy0jyKs6MtkvS"'
         }
     }

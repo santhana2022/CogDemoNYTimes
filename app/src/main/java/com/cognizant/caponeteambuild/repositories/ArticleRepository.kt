@@ -10,7 +10,7 @@ import javax.inject.Singleton
 @ExperimentalCoroutinesApi
 class ArticleRepository @Inject constructor(private val articleApi: ArticleApi) {
 
-    suspend fun getArticle(articleName: String): Article {
-        return articleApi.getArticle(articleName)
+    suspend fun getArticle(articleType: String): Article {
+        return articleApi.getArticle(articleType)
     }
 }

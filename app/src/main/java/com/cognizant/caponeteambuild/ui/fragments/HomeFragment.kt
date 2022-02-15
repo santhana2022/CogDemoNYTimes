@@ -64,11 +64,7 @@ class HomeFragment : Fragment() {
 
     private fun getArticles(): List<Home> {
         return arrayListOf(
-            Home(
-                getString(R.string.politics),
-                R.drawable.ic_politics,
-                getString(R.string.politics_api)
-            ),
+            Home(getString(R.string.politics), R.drawable.ic_politics, getString(R.string.politics_api)),
             Home(getString(R.string.sports), R.drawable.ic_sports, getString(R.string.sport_api)),
             Home(getString(R.string.travels), R.drawable.ic_travel, getString(R.string.travel_api))
         )

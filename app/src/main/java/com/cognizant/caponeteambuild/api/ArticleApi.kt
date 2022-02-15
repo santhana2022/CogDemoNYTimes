@@ -7,9 +7,16 @@ import retrofit2.http.Path
 import retrofit2.http.Query
 
 interface ArticleApi {
+
     @GET("{articleName}.json")
-    suspend fun getArticle(
+    suspend fun getArticleV0(
         @Path("articleName") name: String = "home",
+        @Query("api-key") apiKey: String = BuildConfig.API_KEY
+    ): Article
+
+    @GET("{articleType}")
+    suspend fun getArticle(
+        @Path("articleType") name: String = "home",
         @Query("api-key") apiKey: String = BuildConfig.API_KEY
     ): Article
 }
