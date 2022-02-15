@@ -24,4 +24,4 @@ arts, business, ...).
 Instead of accessing NewYorkTimes API's directly from our mobile application, 
 we have implemented a proxy layer in our cognizant backend and that will route our application's API calls to the NewYorkTimes developer service.
 
-<img src=".images/app_architecture.png" alt="App Architecture" width="200" height="100"/>
+<img src=".images/app_architecture.png" alt="App Architecture" width="500" height="200"/>
