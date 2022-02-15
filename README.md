@@ -1,6 +1,6 @@
 # ![logo](.images/nyt_app_logo.png) CAP-One Android Demo
 
-## API Documentation:  [NewYorkTimes Developers](https://documenter.getpostman.com/view/196489/UVkgxeW6)
+## API Documentation:  [<u>NewYorkTimes Developers</u>](https://documenter.getpostman.com/view/196489/UVkgxeW6)
 
 This sample application use the **Top Stories** API to fetch an array of articles currently on the specified section (
 arts, business, ...).
@@ -24,7 +24,7 @@ arts, business, ...).
 Instead of accessing NewYorkTimes API's directly from our mobile application, 
 we have implemented a proxy layer in our cognizant backend and that will route our application's API calls to the NewYorkTimes developer service.
 
-<img src=".images/app_architecture.png" alt="App Architecture" width="700" height="350"/>
+<img src=".images/application_architecture.png" alt="App Architecture" width="700" height="350"/>
 
 ## Basic application screens
 
