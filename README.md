@@ -1,6 +1,6 @@
 # ![logo](.images/nyt_app_logo.png) CAP-One Android Demo
 
-## API Documentation:  [<u>NewYorkTimes Developers</u>](https://documenter.getpostman.com/view/196489/UVkgxeW6)
+## API Documentation:  [<ins>NewYorkTimes Developers</ins>](https://documenter.getpostman.com/view/196489/UVkgxeW6)
 
 This sample application use the **Top Stories** API to fetch an array of articles currently on the
 specified section (
@@ -30,6 +30,7 @@ NewYorkTimes developer service.
 <p>
     <img src=".images/application_architecture.png" alt="App Architecture" width="800" height="350"/>
 </p>
+
 ## Basic application screens
 
 <p>
