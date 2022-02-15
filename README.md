@@ -31,6 +31,19 @@ NewYorkTimes developer service.
     <img src=".images/application_architecture.png" alt="App Architecture" width="800" height="350"/>
 </p>
 
+#### [<ins>Link to the Cognizant API Postman collection </ins>](https://documenter.getpostman.com/view/196489/UVkgxeW6)
+
+- Ger Articles By Type
+#### ![logo](.images/get_articles_by_type.png)
+```js
+(curl --location -g --request GET 'https://grjdhf09al.execute-api.us-east-1.amazonaws.com/dev/{{article-type}}?api-key=LcKeKsGydBd8zJODuMGUy0jyKs6MtkvS')
+```
+- Ger Sports/Politics/Travel Articles
+#### ![logo](.images/get_articles_by_sports.png)
+```js
+curl --location --request GET 'https://grjdhf09al.execute-api.us-east-1.amazonaws.com/dev/sports?api-key=LcKeKsGydBd8zJODuMGUy0jyKs6MtkvS'
+```
+
 ## Basic application screens
 
 <p>
